@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: sans-serif;
+  background: #F6EFE5; }
+
+header {
+  height: auto; }
+  header > h1 {
+    background: #464f01;
+    float: left;
+    margin: 0;
+    height: 325px;
+    width: 30%;
+    font-size: 15px;
+    padding: 10px;
+    font-family: sans-serif;
+    color: white;
+    padding: 25px 10px; }
+  header > h2 {
+    background: #0a014f;
+    float: left;
+    margin: 0;
+    height: 325px;
+    width: 70%;
+    padding: 15% 0 0 10px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+    padding: 25px 10px; }
+
+.summary {
+  background: #DA772B;
+  font-family: sans-serif;
+  color: white;
+  padding: 25px 10px;
+  clear: both;
+  padding: 25px 10px 10px 10px; }
+
+a {
+  color: #090050; }
+
+.explanation {
+  background: #0a014f;
+  font-family: sans-serif;
+  color: white;
+  padding: 25px 10px; }
+
+.benefits {
+  background: #FFB432;
+  font-family: sans-serif;
+  color: white;
+  padding: 25px 10px; }
+
+.select {
+  background: #FFB432;
+  font-family: sans-serif;
+  color: white;
+  padding: 25px 10px;
+  padding-top: 55px;
+  padding-bottom: 5px;
+  height: 90px; }
+
+ul {
+  padding: 0; }
+
+.design-selection li {
+  height: 125px;
+  width: 100%;
+  color: white;
+  list-style: none; }
+  .design-selection li a {
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 5px;
+    height: 90px; }
+  .design-selection li:nth-child(odd) {
+    background-color: #0a014f; }
+  .design-selection li:nth-child(even) {
+    background-color: #DA772B; }
+  .design-selection li:nth-child(-4n+5) {
+    background-color: #464f01; }
+
+/*# sourceMappingURL=master.css.map */

@@ -1,0 +1,75 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: sans-serif;
+  background: #F6EFE5;
+}
+
+header {
+  height: auto;
+  > h1 {
+    background: $content2;
+    @include header;
+    width: 30%;
+    font-size: 15px;
+    padding: 10px;
+    @include textStyles;
+
+  }
+  >h2 {
+    background: $content1;
+    @include header;
+    width: 70%;
+    padding: 15% 0 0 10px;
+    font-size: 40px;
+    @include textStyles;
+
+  }
+}
+
+.summary {
+  background: $content3;
+  @include textStyles;
+  clear: both;
+  padding: 25px 10px 10px 10px;
+}
+
+a {
+  color: $linkColor;
+}
+
+.explanation {
+  background: $content1;
+  @include textStyles;
+}
+
+.benefits {
+  background: $content5;
+  @include textStyles;
+}
+
+.select {
+  background: $content5;
+  @include textStyles;
+  padding-top: 55px;
+  padding-bottom: 5px;
+  height: 90px;
+}
+
+ul {
+  padding: 0;
+}
+
+.design-selection li {
+  @include sidebar;
+  &:nth-child(odd){
+    background-color: $content1;
+  }
+  &:nth-child(even){
+    background-color: $content3;
+  }
+&:nth-child(-4n+5) {
+  background-color: $content2;
+  }
+}

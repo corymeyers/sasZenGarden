@@ -1,0 +1,28 @@
+@mixin header {
+  float: left;
+  margin: 0;
+  height: 325px;
+}
+
+@mixin textStyles {
+  font-family: sans-serif;
+  color: $textColor;
+  padding: 25px 10px;
+}
+
+@mixin links {
+  color: $linkColor;
+}
+
+@mixin sidebar {
+  height: 125px;
+  width: 100%;
+  color: $textColor;
+  list-style: none;
+  a {
+    color: $textColor;
+    padding-top: 55px;
+    padding-bottom: 5px;
+    height: 90px;
+  }
+}

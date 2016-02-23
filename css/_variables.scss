@@ -1,0 +1,10 @@
+// COLOR PALLETTE
+$content1: #0a014f; //dark blue
+$content2: complement($content1); // olive
+$content3: #DA772B; //orange
+$content4: mix($content1, $content2, 20%);
+$content5: #FFB432; 
+
+// TEXT
+$textColor: white;
+$linkColor: saturate($content1, 90%);
